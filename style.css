@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Archivo", sans-serif;
+    font-size: 16px;
+    min-width: 1200px;
+}
+
+#container{
+    min-width: 1200px;
+}
+
+#logo{
+    background-color: #F3FFF2;
+    width: 50%;
+    height: 100%;
+    height: 100vh;
+    float: left;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#login{
+    width: 380px;
+}
+
+.l-topo{
+    margin-bottom: 40px;
+    width: 100%px;
+}
+
+.l-topo p{
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.l-topo h1{
+    font-size: 1.8em;
+}
+
+.l-conteudo{
+    width: 100%;
+}
+
+.l-conteudo p{
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.l-conteudo input{
+    width: 100%;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #E8E8E8;
+    padding: 10px;
+}
+
+.l-conteudo-senha{
+    display: flex;
+    font-size: 0.9em;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.l-conteudo-senha label{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.l-conteudo-senha input{
+    width: 16px;
+    border-radius: 100px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.l-conteudo-senha a{
+    text-decoration: none;
+    color: #1E9E6A;
+}
+
+.l-login{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.l-login button{
+    width: 100%;
+    height: 48px;
+    margin-top: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.l-login-login{
+    background-color: #1E9E6A;
+    cursor: pointer;
+}
+
+.l-login-google{
+    background-color: #1A202C;
+    cursor: pointer;
+}
+
+.l-rodape{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.l-rodape a{
+    text-decoration: none;
+    color: #1E9E6A;
+}
+
+
+/* ----- Hover -----*/
+
+.l-conteudo-senha a:hover{
+    color: #38b483;
+}
+
+.l-login-login:hover{
+    background-color: #38b483;
+}
+
+.l-login-google:hover{
+    background-color: #2d3749;
+}
+
+.l-rodape a:hover{
+    color: #38b483;
+}
